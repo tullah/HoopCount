@@ -226,17 +226,14 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-                .environment(\.isPreview, true)
                 .previewDisplayName("41mm")
                 .previewDevice("Apple Watch Series 7 - 41mm")
             
             ContentView()
-                .environment(\.isPreview, true)
                 .previewDisplayName("45mm")
                 .previewDevice("Apple Watch Series 7 - 45mm")
             
             ContentView()
-                .environment(\.isPreview, true)
                 .previewDisplayName("49mm")
                 .previewDevice("Apple Watch Ultra - 49mm")
         }
