@@ -20,7 +20,9 @@ struct ContentView: View {
     @State private var team2ScoreDouble = 0.0
     @State private var accumulatedRotation = 0.0
     @State private var showingResetConfirmation = false
-    @Environment(\.isPreview) private var isPreview
+    private var isPreview: Bool {
+        ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
+    }
     @Environment(\.displayScale) private var displayScale
     
     private let fullRotation = 2 * Double.pi
