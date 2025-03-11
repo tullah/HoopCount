@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HoopCount.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>79DDAA9D3F13646B878145AF3C36AD5517842D09</string>
+				<key>dateExpires</key>
+				<string>3/7/26</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64_32</string>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>79DDAA9D3F13646B878145AF3C36AD5517842D09</string>
+						<key>dateExpires</key>
+						<string>3/7/26</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>4D3C7D49NZ.hoopcount.HoopCount.watchkitapp</string>
+						<key>beta-reports-active</key>
+						<true/>
+						<key>com.apple.developer.team-identifier</key>
+						<string>4D3C7D49NZ</string>
+						<key>get-task-allow</key>
+						<false/>
+					</dict>
+					<key>name</key>
+					<string>HoopCount Watch App.app</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>14522a24-17cc-4813-8183-8ba03d36a1c6</string>
+						<key>dateExpires</key>
+						<string>3/7/26</string>
+						<key>name</key>
+						<string>iOS Team Store Provisioning Profile: hoopcount.HoopCount.watchkitapp</string>
+					</dict>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4D3C7D49NZ</string>
+						<key>name</key>
+						<string>Tariq Ullah</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4D3C7D49NZ.hoopcount.HoopCount</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4D3C7D49NZ</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>HoopCount.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7ec65963-cdf8-47c7-9761-31e8ff47b17c</string>
+				<key>dateExpires</key>
+				<string>3/7/26</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: hoopcount.HoopCount</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4D3C7D49NZ</string>
+				<key>name</key>
+				<string>Tariq Ullah</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
